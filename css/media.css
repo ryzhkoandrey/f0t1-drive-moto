@@ -1,0 +1,161 @@
+@media (max-width: 1200px) {
+
+   /* BANNER SECTION */
+
+   .banner-section__slider-img {
+      max-width: 600px;
+      min-height: 380px;
+   }
+
+   .banner-section__inner {
+      justify-content: space-around;
+   }
+
+   .banner-section__slider {
+      max-width: 600px;
+   }
+   
+   /* CATEGORIES */
+
+   .categories__inner {
+      justify-content: space-around;
+   }
+}
+
+@media (max-width: 1100px) {
+
+   /* HEADER */
+
+   .menu__item+.menu__item {
+      padding: 0 0 0 20px;
+   }
+
+   .header__address {
+      margin: 0 20px 0 0;
+   }
+}
+
+@media (max-width: 968px) {
+
+   /* HEADER */
+
+   .header__bottom {
+      display: none;
+   }
+
+   .menu__list {
+      display: none;
+   }
+
+   .menu__btn {
+      display: block;
+   }
+
+   .menu__btn-line {
+      margin: 8px 0;
+      width: 34px;
+      height: 3px;
+      background: #2F3035;
+      border-radius: 3px;
+   }
+
+   .menu__mobile-line {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 14px 15px;
+      display: block;
+      color: #2F3035;
+      font-family: 'SF Pro Display';
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      background: #F0F0F4;
+   }
+
+   /* BANNER SECTION */
+
+   .banner-section__inner {
+      margin-top: 25px;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   .banner-section__slider {
+      max-width: 100%;
+   }
+
+   .banner-section__slider-img {
+      margin-bottom: 25px;
+      max-width: 100%;
+   }
+
+   .banner-section__slider-btn {
+      display: none;
+   }
+
+   /* SEARCH */
+
+   .mobile-overflow {
+      width: 1000px;
+   }
+
+   .tabs-wrapper {
+      overflow-x: auto;
+   }
+}
+
+@media (max-width: 640px) {
+
+   /* HEADER */
+
+   .header__address {
+      display: none;
+   }
+
+   /* BANNER SECTION */
+
+   .banner-section__slider-img {
+      min-height: 200px;
+   }
+
+   .banner-section .container {
+      padding: 0;
+   }
+
+   /* SEARCH */
+
+   .search__content-btn {
+      position: absolute;
+      top: 13px;
+      right: 8px;
+      padding: 17px;
+      width: 24px;
+      height: 24px;
+      font-size: 0;
+      line-height: 0;
+      background: url('../images/search-2.svg') no-repeat;
+   }
+
+   .search__content-input {
+      padding-right: 50px;
+   }
+
+   .search__content-form {
+      position: relative;
+   }
+}
+
+@media (max-width: 440px) {
+
+   /* BANNER SECTION */
+
+   .banner-section__slider-img {
+      min-height: 164px;
+   }
+
+   /* CATEGORIES */
+
+   .categories__item {
+      padding: 20px 10px 16px;
+   }
+}
